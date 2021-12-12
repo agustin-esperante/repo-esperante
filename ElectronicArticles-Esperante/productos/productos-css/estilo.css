@@ -1,0 +1,210 @@
+/* general */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: century gothic;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* @keyframes navbar{
+    0% {
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+} */
+
+body{
+    color: white;
+    background-image: linear-gradient( to left, rgb(24, 24, 24) ,black );
+    /* animation: navbar 2s linear 0s none; */
+}
+
+a{ 
+    text-decoration: none;
+    color: gold;
+}
+
+a:hover{ 
+    text-decoration: none;
+    color: rgb(0, 255, 150);
+}
+
+/* header */
+
+.logo-header img{
+    width: 50px;
+}
+
+
+.logo-header{
+    border: none;
+}
+
+header{
+    background: rgb(87, 87, 87);
+    position: sticky;
+    top: 0px;
+}
+
+li{
+    list-style: none;
+    width: 100%;
+}
+
+.hover-nav{
+    border: 2px outset gold;
+    padding: 7%;
+    margin: 2px;
+    background-image: linear-gradient( to left ,black, rgb(24, 24, 24) );
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: unset;
+    
+}
+
+.hover-nav:hover{
+    background-image: linear-gradient( to left ,rgb(160, 160, 160) ,white );
+    color: black;
+    border: inset gold;
+}
+
+.header ul{
+    display: flex;
+    align-items: center;
+    padding: 0.1%;
+    background-image: linear-gradient( to left, rgb(24, 24, 24) ,black );
+}
+
+.buscar{
+    padding: 7%;
+    margin: 2px;
+    border: inset gold;
+    background-image: linear-gradient( to left ,black, rgb(24, 24, 24) );
+    color: white;
+    border-radius: 50px;
+}
+
+.buscar:hover{
+    border: outset gold;
+    background-image: linear-gradient( to left ,rgb(160, 160, 160) ,white );
+    color: black;
+}
+
+/* destacado */
+
+.destacado{
+    width: 60%;
+}
+
+#destacado{
+    text-align: center;
+}
+
+/* productos */
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(3, 300px);
+    gap: 50px 10px;
+    padding: 15px;
+    width: 97%;
+}
+
+.grid-item{
+    width: 90%;
+    height: 100%;
+    align-self: center;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.grid-item:hover{
+    margin: 1px 15px 15px 15px;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.producto img{
+    width: 100px;
+    height: auto;
+    margin: 5px;
+}
+
+.pags{
+    width: 100%;
+    text-align: center;
+}
+
+/* contacto */
+
+#contacto{
+    padding: 30px;
+    text-align: center;
+}
+
+#contacto input{
+    background-image: linear-gradient( to left ,black, rgb(24, 24, 24) );
+    color: rgb(255, 255, 255);
+    border: inset gold;
+    margin: 5px;
+    padding: 5px;
+    width: 60%;
+}
+
+#contacto input:hover{
+    background-image: linear-gradient( to left ,rgb(160, 160, 160) ,white );
+     color: rgb(0, 0, 0);
+     border: inset gold;
+ }
+
+ #contacto textarea{
+    background-image: linear-gradient( to left ,black, rgb(24, 24, 24) );
+     color: rgb(255, 255, 255);
+     border: inset gold;
+     margin: 5px;
+     padding: 5px;
+     width: 60%;
+ }
+ 
+ #contacto textarea:hover{
+    background-image: linear-gradient( to left ,rgb(160, 160, 160) ,white );
+      color: rgb(0, 0, 0);
+      border: outset gold;
+  }
+
+  .btn-enviar{
+    background-image: linear-gradient( to left ,black, rgb(24, 24, 24) );
+    color: rgb(255, 255, 255);
+    border: inset gold;
+    margin: 5px;
+    padding: 5px;
+    width: 15%;
+    height: 40px;
+    
+  }
+
+  .btn-enviar:hover{
+    background-image: linear-gradient( to left ,rgb(160, 160, 160) ,white );
+    color: rgb(0, 0, 0);
+    border: outset gold;
+  }
+
+  
+.imag-contacto{
+    width: 5%;
+    height: auto;
+    background-color: white;
+    border-radius: 50px;
+} 
+
+/* pie de pagina */
+footer{
+    text-align: center;
+    background: black;
+}

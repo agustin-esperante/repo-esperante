@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronic Articles</title>
+    <link rel="stylesheet" href="../productos/productos-css/estilo.css">
+    <link rel="shortcut icon" href="./logo-pagina/logo.png">
+</head>
+<body>
+    <header class="header">
+            <ul class="header-menu">
+                <li class="logo-header"><a href="#"><img  src="../productos/logo-EA/logo-nombre-pz.jpg" alt="logo" ></a></li>
+                <li><a class="hover-nav"href="#destacado">destacado</a></li>
+                <li><a class="hover-nav"href="#productos">productos</a></li>
+                <li><a class="hover-nav" href="#contacto">contacto</a></li> 
+                <li><input type="text" class="buscar" placeholder="buscar"></li>  
+            </ul>
+        <hr>
+    </header>
+    <div class="container" id="destacado" >
+        <img src="../destacado-img/destacado.jpg" alt="destacado" class="destacado" >
+    </div>
+    <hr>
+    <main>
+        <div class="container" id="productos">
+            <div class="grid-container">
+                <div class="grid-item"><a class="producto" href="../productos/producto-1/pr-1.html"><img  src="../productos/producto-1/monitor-1.jpeg" alt="logo"><h4>Monitor gamer curvo Samsung C24F390FH led 24"</h4></a></div>
+                <div class="grid-item"><a class="producto" href="../productos/producto-2/pr-2.html"><img  src="../productos/producto-2/producto-2.jpeg" alt="logo"><h4>teclado gamer Redragon Kumara K552 QWERTY español blanco RGB</h4></a></div>
+                <div class="grid-item"><a class="producto" href="../productos/producto-3/pr-3.html"><img  src="../productos/producto-3/mouse-3.jpeg" alt="logo"><h4>Mouse de juego Redragon Storm Elite M988 black</h4></a></div>
+                <div class="grid-item"><a class="producto" href="../productos/producto-4/pr-4.html"><img  src="../productos/producto-4/joystick-4.jpeg" alt="logo"><h4>Joystick Ps4 Sony Original</h4></a></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+            </div>
+            <div>
+                <table border="1" class="pags">
+                    <td><a href="#">anterior</a></td>
+                    <td><a href="#">1</a></td>
+                    <td><a href="#">2</a></td>
+                    <td><a href="#">3</a></td>
+                    <td><a href="#">4</a></td>
+                    <td><a href="#">5</a></td>
+                    <td><a href="#">6</a></td>
+                    <td><a href="#">7</a></td>
+                    <td><a href="#">8</a></td>
+                    <td><a href="#">9</a></td>
+                    <td><a href="#">10</a></td>
+                    <td><a href="#">siguiente</a></td>
+                </table>
+            </div>
+        </div>
+    </main>
+    <hr>
+    <div class="container" id="contacto">
+        <h2 id="contacto">formulario de contacto:</h2>
+        <form class="formulario">
+            <div class="nombre">
+              <label for="nombre">Nombre</label>
+              <br>
+              <input type="text" class="nombre" id="nombre" placeholder="escribi tu nombre">
+            </div>
+            <div class="email">
+                <label for="email">Email</label>
+                <br>
+                <input type="email" class="email" id="email" placeholder="nombre@ejemplo.com">
+              </div>
+            <div class="numero-txt">
+              <label for="numero-txt">Numero de Celular</label>
+              <br>
+              <input type="text" class="numero-txt" id="numero-txt" placeholder="ej: +54-11-2345-6789">
+            </div>
+            <div class="mensaje">
+                <label for="mensaje">Mensaje</label>
+                <br>
+                <textarea class="mensaje" id="mensaje" rows="3" placeholder="escribe tu mensaje"></textarea>
+              </div>
+              <button type="submit" class="btn-enviar" >enviar</button>
+        </form>
+        <br>
+        <div class="contacto">
+            <a href="https://www.whatsapp.com"><img src="./productos/iconos/wpp.png" alt="whatsapp" class="imag-contacto"></a>
+            <a href="#"><img src="./productos/iconos/teleph.png" alt="telefono" class="imag-contacto"></a>
+            <a href="https://www.instagram.com"><img src="./productos/iconos/insta.png" alt="instagram" class="imag-contacto"></a>
+            <a href="https://www.facebook.com"><img src="./productos/iconos/faceb.png" alt="facebook" class="imag-contacto"></a>
+            <a href="https://www.googlemaps.com"><img src="./productos/iconos/ubi.png" alt="ubicacion" class="imag-contacto"></a>
+            <a href="https://www.twitter.com"><img src="./productos/iconos/twttr.png" alt="twitter" class="imag-contacto"></a>
+        </div>
+    </div>
+    <hr>
+    <footer>
+        <p>Electronic Articles &copy;2021</p>
+    </footer>
+</body>
+</html>
